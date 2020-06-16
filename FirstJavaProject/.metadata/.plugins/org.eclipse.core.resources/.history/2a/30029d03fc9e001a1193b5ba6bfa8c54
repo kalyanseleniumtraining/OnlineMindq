@@ -1,0 +1,15 @@
+package basicMethods;
+
+import org.openqa.selenium.firefox.FirefoxDriver;
+
+public class OpenCloseBrowser {
+	
+	public static void main(String[] args) {
+		
+		//statement to open the browser
+		FirefoxDriver fd=new FirefoxDriver();
+		
+		
+	}
+
+}

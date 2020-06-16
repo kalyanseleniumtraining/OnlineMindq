@@ -1,0 +1,10 @@
+package basicMethods;
+
+public class OpenCloseBrowser {
+	
+	public static void main(String[] args) {
+		
+		
+	}
+
+}

@@ -1,0 +1,28 @@
+package basicMethods;
+
+import org.openqa.selenium.firefox.FirefoxDriver;
+
+public class OpenCloseBrowser {
+
+	public static void main(String[] args) throws InterruptedException {
+
+		// statement to open the browser
+		FirefoxDriver fd = new FirefoxDriver();
+
+		// Opening the url in the browser
+		fd.get("http://www.amazon.com");// expectation is 1 window will be opened
+		
+		
+		
+		// but infact two windows are opening
+
+		//Thread.sleep(15000);
+		// close method will close the Browser which is "active"
+		// fd.close();
+
+		// there is no method to close inactive windows
+		//fd.quit();
+
+	}
+
+}

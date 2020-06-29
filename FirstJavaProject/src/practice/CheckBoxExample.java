@@ -15,9 +15,10 @@ public class CheckBoxExample {
 
 		boolean state = checkbox.isSelected();
 		if (state == false) {
-			checkbox.click();
+			System.out.println("CheckBox is already not selected not performing any action");
 		} else {
-			System.out.println("CheckBOx is already selected not performing any action");
+			checkbox.click();
+			
 		}
 
 	}
